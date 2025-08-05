@@ -1,13 +1,17 @@
 # Reown AppKit Example with COOP and COEP headers which breaks the social login
 
-This is a Next.js project.
+This is a Next.js project  with Reown AppKit generate by running `npx @reown/appkit-cli`. The only change is the `next.config.ts` file.
 
 ## How reproduce headers issue
 
-1. Go to `next.config.ts` and uncomment the `Cross-Origin-Embedder-Policy` header.
-2. Run `pnpm run dev` to start the development server
-3. Try to login with social media
-4. You will see that social login is not working. It just hangs until the timeout. If you open the console in the popup, you will see the error because there is no `projectid`. E.g. `https://secure.walletconnect.org/get-dapp-data?projectId=&referer=http%3A%2F%2Flocalhost%3A3001%2F`
+1. Run `pnpm install` to install dependencies
+2. Run the app by `pnpm run dev`
+3. Try to login with social media, everything works fine.
+4. Stop the app by `Ctrl + C`
+5. Go to `next.config.ts` and uncomment the `Cross-Origin-Embedder-Policy` header.
+6. Run `pnpm run dev` to start the development server
+7. Try to login with social media
+8. You will see that social login is not working. It just hangs until the timeout. If you open the console in the popup, you will see the error because there is no `projectid`. E.g. `https://secure.walletconnect.org/get-dapp-data?projectId=&referer=http%3A%2F%2Flocalhost%3A3001%2F`
 
 ### Important to mention
 

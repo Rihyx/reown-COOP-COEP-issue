@@ -38,11 +38,11 @@ const nextConfig: NextConfig = {
             key: 'Cross-Origin-Opener-Policy',
             value: 'same-origin-allow-popups',
           },
-          {
-            // This header is breaking the social login
-            key: 'Cross-Origin-Embedder-Policy',
-            value: 'require-corp',
-          },
+          // {
+          //   // This header is breaking the social login
+          //   key: 'Cross-Origin-Embedder-Policy',
+          //   value: 'require-corp',
+          // },
         ],
       },
     ];
