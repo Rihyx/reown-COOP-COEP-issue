@@ -39,7 +39,7 @@ const nextConfig: NextConfig = {
             value: 'same-origin-allow-popups',
           },
           // {
-          //   // This header is breaking the social login
+          //   // This header breaks the social login
           //   key: 'Cross-Origin-Embedder-Policy',
           //   value: 'require-corp',
           // },
