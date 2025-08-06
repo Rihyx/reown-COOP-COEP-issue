@@ -16,3 +16,11 @@ This is a Next.js project  with Reown AppKit generate by running `npx @reown/app
 ### Important to mention
 
 There is NO CSP at all. So, it is not related to the CSP.
+
+## Docs
+
+- [Cross-Origin-Opener-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
+- [Cross-Origin-Embedder-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy)
+- [Cross-Origin-Resource-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy)
+- [Load cross-origin resources without CORP headers using COEP: credentialless](https://developer.chrome.com/blog/coep-credentialless-origin-trial#why_we_need_cross-origin_isolation)
+- [Secure popup interactions with restrict-properties](https://developer.chrome.com/blog/coop-restrict-properties)
